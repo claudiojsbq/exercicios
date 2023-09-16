@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div>
+       <span id="1">(R)Vermelho:</span><input type="range" id="inputRed" min="0" max="255" oninput="red.value=value" onchange="inputColor()" class="inputAll"/>
+       <input type="text" id="red" class="doCenter"/>
+    </div>
+    <div>
+        <span id="2">(R)Vermelho:</span><input type="range" id="inputGreen" min="0" max="255" oninput="green.value=value" onchange="inputColor()" class="inputAll"/>
+        <input type="text" id="green" class="doCenter"/>         
+    </div>
+    <div>
+        <span id="3">(R)Vermelho:</span><input type="range" id="inputBlue" min="0" max="255" oninput="blue.value=value" onchange="inputColor()" class="inputAll"/>
+        <input type="text" id="blue" class="doCenter"/> 
+    </div></br>
+
+    <div class="displayColor"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
